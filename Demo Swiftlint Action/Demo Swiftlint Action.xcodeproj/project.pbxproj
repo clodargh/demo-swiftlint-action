@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D282056A2674A7EA002244FC /* Demo_Swiftlint_ActionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28205692674A7EA002244FC /* Demo_Swiftlint_ActionApp.swift */; };
+		D282056C2674A7EA002244FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282056B2674A7EA002244FC /* ContentView.swift */; };
+		D282056E2674A7EB002244FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D282056D2674A7EB002244FC /* Assets.xcassets */; };
+		D28205712674A7EB002244FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28205702674A7EB002244FC /* Preview Assets.xcassets */; };
+		D282057C2674A7EB002244FC /* Demo_Swiftlint_ActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282057B2674A7EB002244FC /* Demo_Swiftlint_ActionTests.swift */; };
+		D28205872674A7EB002244FC /* Demo_Swiftlint_ActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28205862674A7EB002244FC /* Demo_Swiftlint_ActionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28205782674A7EB002244FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D282055E2674A7EA002244FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28205652674A7EA002244FC;
+			remoteInfo = "Demo Swiftlint Action";
+		};
+		D28205832674A7EB002244FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D282055E2674A7EA002244FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28205652674A7EA002244FC;
+			remoteInfo = "Demo Swiftlint Action";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28205662674A7EA002244FC /* Demo Swiftlint Action.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Swiftlint Action.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28205692674A7EA002244FC /* Demo_Swiftlint_ActionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swiftlint_ActionApp.swift; sourceTree = "<group>"; };
+		D282056B2674A7EA002244FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D282056D2674A7EB002244FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28205702674A7EB002244FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D28205722674A7EB002244FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28205772674A7EB002244FC /* Demo Swiftlint ActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swiftlint ActionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D282057B2674A7EB002244FC /* Demo_Swiftlint_ActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swiftlint_ActionTests.swift; sourceTree = "<group>"; };
+		D282057D2674A7EB002244FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D28205822674A7EB002244FC /* Demo Swiftlint ActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Swiftlint ActionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28205862674A7EB002244FC /* Demo_Swiftlint_ActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Swiftlint_ActionUITests.swift; sourceTree = "<group>"; };
+		D28205882674A7EB002244FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28205632674A7EA002244FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28205742674A7EB002244FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282057F2674A7EB002244FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D282055D2674A7EA002244FC = {
+			isa = PBXGroup;
+			children = (
+				D28205682674A7EA002244FC /* Demo Swiftlint Action */,
+				D282057A2674A7EB002244FC /* Demo Swiftlint ActionTests */,
+				D28205852674A7EB002244FC /* Demo Swiftlint ActionUITests */,
+				D28205672674A7EA002244FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28205672674A7EA002244FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28205662674A7EA002244FC /* Demo Swiftlint Action.app */,
+				D28205772674A7EB002244FC /* Demo Swiftlint ActionTests.xctest */,
+				D28205822674A7EB002244FC /* Demo Swiftlint ActionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28205682674A7EA002244FC /* Demo Swiftlint Action */ = {
+			isa = PBXGroup;
+			children = (
+				D28205692674A7EA002244FC /* Demo_Swiftlint_ActionApp.swift */,
+				D282056B2674A7EA002244FC /* ContentView.swift */,
+				D282056D2674A7EB002244FC /* Assets.xcassets */,
+				D28205722674A7EB002244FC /* Info.plist */,
+				D282056F2674A7EB002244FC /* Preview Content */,
+			);
+			path = "Demo Swiftlint Action";
+			sourceTree = "<group>";
+		};
+		D282056F2674A7EB002244FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D28205702674A7EB002244FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D282057A2674A7EB002244FC /* Demo Swiftlint ActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D282057B2674A7EB002244FC /* Demo_Swiftlint_ActionTests.swift */,
+				D282057D2674A7EB002244FC /* Info.plist */,
+			);
+			path = "Demo Swiftlint ActionTests";
+			sourceTree = "<group>";
+		};
+		D28205852674A7EB002244FC /* Demo Swiftlint ActionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D28205862674A7EB002244FC /* Demo_Swiftlint_ActionUITests.swift */,
+				D28205882674A7EB002244FC /* Info.plist */,
+			);
+			path = "Demo Swiftlint ActionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28205652674A7EA002244FC /* Demo Swiftlint Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D282058B2674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint Action" */;
+			buildPhases = (
+				D28205622674A7EA002244FC /* Sources */,
+				D28205632674A7EA002244FC /* Frameworks */,
+				D28205642674A7EA002244FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo Swiftlint Action";
+			productName = "Demo Swiftlint Action";
+			productReference = D28205662674A7EA002244FC /* Demo Swiftlint Action.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28205762674A7EB002244FC /* Demo Swiftlint ActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D282058E2674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint ActionTests" */;
+			buildPhases = (
+				D28205732674A7EB002244FC /* Sources */,
+				D28205742674A7EB002244FC /* Frameworks */,
+				D28205752674A7EB002244FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28205792674A7EB002244FC /* PBXTargetDependency */,
+			);
+			name = "Demo Swiftlint ActionTests";
+			productName = "Demo Swiftlint ActionTests";
+			productReference = D28205772674A7EB002244FC /* Demo Swiftlint ActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D28205812674A7EB002244FC /* Demo Swiftlint ActionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28205912674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint ActionUITests" */;
+			buildPhases = (
+				D282057E2674A7EB002244FC /* Sources */,
+				D282057F2674A7EB002244FC /* Frameworks */,
+				D28205802674A7EB002244FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28205842674A7EB002244FC /* PBXTargetDependency */,
+			);
+			name = "Demo Swiftlint ActionUITests";
+			productName = "Demo Swiftlint ActionUITests";
+			productReference = D28205822674A7EB002244FC /* Demo Swiftlint ActionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D282055E2674A7EA002244FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D28205652674A7EA002244FC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D28205762674A7EB002244FC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D28205652674A7EA002244FC;
+					};
+					D28205812674A7EB002244FC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D28205652674A7EA002244FC;
+					};
+				};
+			};
+			buildConfigurationList = D28205612674A7EA002244FC /* Build configuration list for PBXProject "Demo Swiftlint Action" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D282055D2674A7EA002244FC;
+			productRefGroup = D28205672674A7EA002244FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28205652674A7EA002244FC /* Demo Swiftlint Action */,
+				D28205762674A7EB002244FC /* Demo Swiftlint ActionTests */,
+				D28205812674A7EB002244FC /* Demo Swiftlint ActionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28205642674A7EA002244FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28205712674A7EB002244FC /* Preview Assets.xcassets in Resources */,
+				D282056E2674A7EB002244FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28205752674A7EB002244FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28205802674A7EB002244FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28205622674A7EA002244FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D282056C2674A7EA002244FC /* ContentView.swift in Sources */,
+				D282056A2674A7EA002244FC /* Demo_Swiftlint_ActionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28205732674A7EB002244FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D282057C2674A7EB002244FC /* Demo_Swiftlint_ActionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282057E2674A7EB002244FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28205872674A7EB002244FC /* Demo_Swiftlint_ActionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28205792674A7EB002244FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28205652674A7EA002244FC /* Demo Swiftlint Action */;
+			targetProxy = D28205782674A7EB002244FC /* PBXContainerItemProxy */;
+		};
+		D28205842674A7EB002244FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28205652674A7EA002244FC /* Demo Swiftlint Action */;
+			targetProxy = D28205832674A7EB002244FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D28205892674A7EB002244FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D282058A2674A7EB002244FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D282058C2674A7EB002244FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo Swiftlint Action/Preview Content\"";
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Demo Swiftlint Action/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D282058D2674A7EB002244FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Demo Swiftlint Action/Preview Content\"";
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Demo Swiftlint Action/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D282058F2674A7EB002244FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				INFOPLIST_FILE = "Demo Swiftlint ActionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-ActionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swiftlint Action.app/Demo Swiftlint Action";
+			};
+			name = Debug;
+		};
+		D28205902674A7EB002244FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				INFOPLIST_FILE = "Demo Swiftlint ActionTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-ActionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo Swiftlint Action.app/Demo Swiftlint Action";
+			};
+			name = Release;
+		};
+		D28205922674A7EB002244FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				INFOPLIST_FILE = "Demo Swiftlint ActionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-ActionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Swiftlint Action";
+			};
+			name = Debug;
+		};
+		D28205932674A7EB002244FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WVZFX7XHN7;
+				INFOPLIST_FILE = "Demo Swiftlint ActionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clodargh.Demo-Swiftlint-ActionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Demo Swiftlint Action";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28205612674A7EA002244FC /* Build configuration list for PBXProject "Demo Swiftlint Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28205892674A7EB002244FC /* Debug */,
+				D282058A2674A7EB002244FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D282058B2674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D282058C2674A7EB002244FC /* Debug */,
+				D282058D2674A7EB002244FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D282058E2674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint ActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D282058F2674A7EB002244FC /* Debug */,
+				D28205902674A7EB002244FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28205912674A7EB002244FC /* Build configuration list for PBXNativeTarget "Demo Swiftlint ActionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28205922674A7EB002244FC /* Debug */,
+				D28205932674A7EB002244FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D282055E2674A7EA002244FC /* Project object */;
+}
