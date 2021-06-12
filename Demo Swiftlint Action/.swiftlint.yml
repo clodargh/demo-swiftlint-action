@@ -1,0 +1,4 @@
+type_name:
+    # There are three error-level violations for type_name without '_'
+    allowed_symbols: ["_"]
+
